@@ -42,7 +42,7 @@ const TAB_DATA = [
                     </div>
                     <ul className="list-disc pl-4">
                         <li>Successfully migrated all PHP static pages to Next.js, utilizing reusable components.</li>
-                        <li>Developed an academy within the company's platform using Next.js, enabling users to complete courses.</li>
+                        <li>Developed an academy within the company&apos;s platform using Next.js, enabling users to complete courses.</li>
                         <li>Enhanced the performance of the TestSigma website from 34% to 96%.</li>
                         <li>Worked closely with designers, developers, and other stakeholders to meet project requirements and deadlines.</li>
                         <li>Implemented best practices for search engine optimization (SEO) and ensuring the website is accessible to users with disabilities.</li>
@@ -78,7 +78,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="About"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
